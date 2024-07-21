@@ -1,0 +1,137 @@
+body {
+    background-color: #f0f0f0;
+    /* fundo cinza claro */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h4 {
+    color: #e83e8c;
+    /* rosa */
+    text-align: center;
+}
+
+footer {
+    color: #fff;
+    background-color: #e83e8c;
+}
+
+.btn {
+    background-color: #e83e8c;
+    /* rosa */
+    border-color: #e83e8c;
+    /* rosa */
+    color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d93378;
+    /* rosa mais escuro */
+    border-color: #d93378;
+    /* rosa mais escuro */
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn:focus:not(:active) {
+    background-color: #d93378;
+    /* rosa mais escuro ao focar, exceto quando pressionado */
+    border-color: #d93378;
+    /* rosa mais escuro ao focar, exceto quando pressionado */
+}
+
+.form-control {
+    border-color: #e83e8c;
+    /* rosa */
+    border-radius: 20px;
+}
+
+textarea.form-control:focus,
+input.form-control:focus {
+    border-color: #e83e8c;
+    /* rosa */
+    box-shadow: none;
+}
+
+.pre-container {
+    background-color: #f8f9fa;
+    /* cinza claro */
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.text-danger {
+    color: #dc3545;
+    /* vermelho */
+}
+
+ .fraction {
+     display: inline-block;
+     text-align: center;
+     vertical-align: middle;
+ }
+
+ .fraction>.numerator {
+     display: block;
+ }
+
+ .fraction>.denominator {
+     display: block;
+     border-top: 1px solid #000;
+ }
+
+/* .fraction .fraction-line {
+    border-top: 1px solid #000;
+    display: block;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+} */
+
+/* Estilo para a seleção da operação */
+.select-operation {
+    background-color: #f8f9fa;
+    /* cinza claro */
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.select-operation button {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.select-operation button:hover {
+    background-color: #e83e8c;
+    /* rosa */
+    border-color: #e83e8c;
+    /* rosa */
+    color: #fff;
+}
+
+.select-operation button:focus {
+    box-shadow: none;
+}
+
+.matrix-input {
+    width: 30px;
+    margin: 2px;
+    text-align: center;
+}
